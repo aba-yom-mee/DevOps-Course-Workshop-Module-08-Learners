@@ -12,4 +12,5 @@ RUN npm run build
 
 
 EXPOSE 5000
-CMD dotnet run
+ENTRYPOINT ["dotnet run"]
+# CMD dotnet run
